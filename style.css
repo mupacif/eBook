@@ -1,0 +1,50 @@
+                    html {
+                        height: 100%;
+                    }
+                    
+                    body {
+                        height: 100%;
+                        margin-top: auto;
+                        margin-left: 10px;
+                        margin-right: 0px;
+                        margin-bottom: 0px;
+                        /*  transform: rotate(180deg);*/
+                    }
+                    
+                    header {
+                        display: flex;
+                        flex-basis: auto;
+                        height: 100px;
+                        text-align: center;
+                    }
+                    
+                    section {
+                        vertical-align: top;
+                        width: 60%;
+                        display: inline-block;
+                    }
+                    
+                    nav {
+                        margin-left: 30px;
+                        display: inline-block;
+                        vertical-align: top;
+                    }
+                    
+                    a {
+                        color: inherit;
+                    }
+                    
+                    .dropdown-content {
+                        color: white;
+                        max-height: 0px;
+                        overflow: hidden;
+                        transition: all 0.5s ease-out;
+                    }
+                    
+                    .dropdown:hover .dropdown-content {
+                        // display: block;
+                        color: black;
+                        overflow: visible;
+                        max-height: 500px;
+                        transition: all 1s ease-in;
+                    }
