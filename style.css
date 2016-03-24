@@ -1,65 +1,62 @@
-
-html{
-    background-color:darkseagreen;
+html {
+    background-color: darkseagreen;
     height: 100%;
 }
-                    body {
-                        background-color: lightgray;
-                       
-                        width: 100%;
-                        margin-top: auto;
-                        margin-left: auto;
-                        margin-right: auto;
-                        margin-bottom: 0px;
-                        /*  transform: rotate(180deg);*/
-                    }
-                    
-                    header {
-                        padding-left: auto;
-                        background-color: darkseagreen;
-                        margin-bottom: 10px;
-                        display: flex;
-                        flex-basis: auto;
-                        height: 100px;
-                        text-align: center;
-                        position: 
-                    }
-                    
-                    section {
-                         background-color: white;   
-                        vertical-align: top;
-                        padding: 20px;
-                        width: 60%;
-                        
-                        display: inline-block;
-                    }
-                    
-                    nav {
-                        width: 30%;
-                        background-color: white;                       
-                        display: inline-block;
-                        vertical-align: top;
-                        margin-left: 40px;
-                        margin-right: 0px;
-                        position: fixed;
-                        
-                    }
-                    
-                    a {
-                        color: inherit;
-                    }
-                    
-                    .dropdown-content {
-                        color: white;
-                        max-height: 0px;
-                        overflow: hidden;
-                        transition: all 0.5s ease-out;
-                    }
-                    
-                    .dropdown:hover .dropdown-content {
-                        // display: block;
-                        color: black;
-                        overflow: visible;
-                        max-height: 500px;
-                        transition: all 1s ease-in;
-                    }
+
+body {
+    background-color: lightgray;
+    width: 100%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    /*  transform: rotate(180deg);*/
+}
+
+header {
+    padding-left: auto;
+    background-color: darkseagreen;
+    margin-bottom: 10px;
+    display: flex;
+    flex-basis: auto;
+    height: 100px;
+    text-align: center;
+    position:
+}
+
+section {
+    background-color: white;
+    vertical-align: top;
+    padding: 20px;
+    width: 60%;
+    display: inline-block;
+}
+
+nav {
+    width: 30%;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 40px;
+    margin-right: 0px;
+    position: fixed;
+}
+
+a {
+    color: inherit;
+}
+
+.dropdown-content {
+    color: white;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.5s ease-out;
+}
+
+.dropdown:hover .dropdown-content {
+    // display: block;
+    color: black;
+    overflow: visible;
+    max-height: 500px;
+    transition: all 1s ease-in;
+}
